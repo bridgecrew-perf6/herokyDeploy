@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #034C82;
+}
+
+.link {
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.link:active {
+    color: white;
+}
