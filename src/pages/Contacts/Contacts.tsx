@@ -8,7 +8,7 @@ const Contacts = () =>{
     const zayavlenie =  require("../../assets/docs/zayavlenie.docx")
 
     return(
-        <div>
+        <div className="mainContainer">
             <div className={styles.preview}>
                 <img src={background} alt="back"></img>
                 <div className={styles.titleFirst}>МЫ ПРОИЗВОДИМ<br></br> ЭЛЕКТРОДВИГАТЕЛИ!</div>

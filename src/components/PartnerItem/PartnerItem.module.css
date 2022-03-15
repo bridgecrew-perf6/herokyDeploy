@@ -1,25 +1,94 @@
-.container {
-    display: flex;
-    padding: 20px 20% 0 20%;
+    .container {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    
+    .textBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 15rem;    
+    }
+    
+    .name {
+        font-size: 18px;
+    }
+    
+    .link {
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .link:hover {
+        color: rgb(65, 64, 64);
+    }
+
+    .link:active {
+        color: black;
+    }
+
+    .helper {
+        flex-grow: 1;
+    }
+
+    @media (max-width: 2100px)  and (min-width: 1441px) {
+        .image {
+            width: 600px;
+            height: auto;
+        }
+
+        .container {
+            margin-bottom: 50px;
+        }
+    
+        .name {
+            font-size: 37px;
+        }
+        .link {
+            font-size: 27px;
+        }
+    }
+
+@media (max-width: 1440px)  and (min-width: 1060px) {
+    .image {
+        max-width: 400px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+    .link {
+        font-size: 17px;
+    }
+}
+    
+@media (max-width: 600px)  and (min-width: 481px) {
+    .image {
+        max-width: 300px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
 }
 
-.textBlock {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 15rem;    
+@media (max-width: 480px) and (min-width: 401px) {
+    .image {
+        max-width: 220px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
 }
 
-.name {
-    font-size: 18px;
-}
+@media (max-width: 400px) and (min-width: 280px){
+    .image {
+        max-width: 160px;
+    }
 
-.link {
-    font-size: 14px;
-    text-decoration: none;
-    color: black;
-}
-
-.helper {
-    flex-grow: 1;
+    .name {
+        font-size: 12px;
+    }
 }

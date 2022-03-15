@@ -4,6 +4,7 @@
 }
 
 .directionsTitle {
+    padding-top: 10px;
     text-align: center;
     font-size: 36px;
     color: #034C82;
@@ -20,14 +21,15 @@
 .directionsItem {
     resize: none;
     width: auto;
+    max-width: 200px;
 }
 
 .sertification {
-    padding-right: 30px;
     background-color: #034C82;
 }
 
 .sertificationTitle {
+    text-align: center;
     font-size: 36px;
     padding-top: 20px;
     color: #FFFFFF;
@@ -50,4 +52,106 @@
     font-size: 24px;
     text-align: start;
     color: #FFFFFF;
+}
+
+
+@media (max-width: 2560px) and (min-width: 1441px) {
+    
+    .directionsTitle {
+        font-size: 45px;
+    }
+
+    .sertificationTitle {
+        font-size: 45px;
+    }
+
+    .sertificationMap {
+        max-width: 1400px;
+    }
+
+    .sertificationText {
+        font-size: 35px;
+    }
+
+    .directionsItem {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1201px) {
+    .directionsItem {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1025px) {
+    .directionsItem {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 932px)  and (min-width: 601px){
+    .sertificationInfoBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sertificationMap {
+        max-width: 100%;
+    }
+
+    .sertificationText {
+        text-align: justify;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 600px)  and (min-width: 401px) {
+    .directionsTitle {
+        font-size: 30px;
+    }
+    .sertificationInfoBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sertificationTitle {
+        font-size: 25px;
+    }
+
+    .sertificationMap {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 300px) {
+    .directionsTitle {
+        font-size: 18px;
+    }
+
+    .sertificationTitle {
+        font-size: 20px;
+    }
+
+    .directionsTitle {
+        font-size: 25px;
+    }
+    .sertificationInfoBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sertificationText {
+        text-align: justify;
+        font-size: 17px;
+        padding-right: 40px
+    }
+
+    .sertificationMap {
+        max-width: 100%;
+    }
 }

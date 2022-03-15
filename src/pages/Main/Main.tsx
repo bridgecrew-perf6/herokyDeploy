@@ -6,7 +6,7 @@ import ControlledCarousel from "../../UI/Carousel/Carousel"
 
 const Main = ()=>{
     return (
-        <div>
+        <div className="mainContainer">
             <ControlledCarousel></ControlledCarousel>
             <div className={styles.directions}>
                 <h3 className={styles.directionsTitle}>

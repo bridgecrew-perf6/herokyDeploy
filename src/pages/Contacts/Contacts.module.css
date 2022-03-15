@@ -12,6 +12,7 @@
 }
 
 .titleFirst {
+    padding-right: 15px;
     position: absolute;
     align-self: flex-end;
     z-index: 2;
@@ -79,4 +80,105 @@
 
 .contactsItem:last-child {
     padding-bottom: 20px;
+}
+
+@media (max-width: 1700px)  and (min-width: 1440px){
+    .contactsBlock{
+        padding-left: 130px;
+        font-size: 40px;
+    }
+    .titleFirst {
+        font-size: 60px;
+    }
+    .titleSecond {
+        font-size: 60px;
+    }
+
+    .rulesTextblock {
+        font-size: 50px;
+    }
+
+    .rulesTitle {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1440px)  and (min-width: 1025px){
+    .contactsBlock{
+        padding-left: 130px;
+        font-size: 30px;
+    }
+    .titleFirst {
+        font-size: 40px;
+    }
+    .titleSecond {
+        font-size: 40px;
+    }
+
+    .rulesTextblock {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1024px)  and (min-width: 769px){
+    .contactsBlock{
+        padding-left: 130px;
+        font-size: 25px;
+    }
+    .titleFirst {
+        font-size: 30px;
+    }
+    .titleSecond {
+        font-size: 30px;
+    }
+
+    .rulesTextblock {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px)  and (min-width: 701px){
+    .contactsBlock{
+        padding-left: 100px;
+    }
+    .titleFirst {
+        font-size: 30px;
+    }
+    .titleSecond {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 700px)  and (min-width: 601px) {
+    .contactsBlock{
+        padding-left: 80px;
+    }
+    .titleFirst {
+        font-size: 25px;
+    }
+    .titleSecond {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px)  and (min-width: 280px)  {
+    .contactsBlock{
+        padding-left: 30px;
+    }
+    .titleFirst {
+        font-size: 13px;
+    }
+    .titleSecond {
+        font-size: 13px;
+    }
+
+    .rulesLink {
+    padding: 5px 30px 5px 30px;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 280px) {
+    .rulesTitle {
+        font-size: 20px;
+    }
 }

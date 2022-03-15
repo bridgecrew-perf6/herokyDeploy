@@ -9,10 +9,9 @@ interface PartnerItem {
 const PartnerItem = ({img, name, link}: PartnerItem)=>{
     return (
         <div className={styles.container}>
-            <img src={img} alt={name} />
-            <div className={styles.helper}></div>
+            <img src={img} alt={name} className={styles.image}/>
             <div className={styles.textBlock}>
-                <p className={styles.name}>{name}</p>
+                <div className={styles.name}>{name}</div>
                 <a href={link} className={styles.link} target="_blank">{link}</a>
             </div>
         </div>
