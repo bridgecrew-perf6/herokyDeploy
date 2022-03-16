@@ -5,8 +5,7 @@ import item4 from "../assets/img/mainItems/4.png"
 import item5 from "../assets/img/mainItems/5.png"
 import item6 from "../assets/img/mainItems/6.png"
 
-const topItemsArray = [item1, item2, item3]
+const topItemsArray = [item1, item2, item3, item4, item5, item6]
 
-const bottomItemsArray = [item4, item5, item6]
 
-export {topItemsArray, bottomItemsArray}
+export default topItemsArray

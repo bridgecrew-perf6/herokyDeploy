@@ -120,8 +120,8 @@
 	  }
 
       .link {
-          padding: 40px 0 40px 10;
-        
+        padding: 40px 0 40px 10;
+        font-size: 35px;
         text-decoration: none;
         color: white;
     }
@@ -192,8 +192,8 @@
 	  }
 
       .link {
-          padding: 40px 0 40px 10;
-        
+        padding: 40px 0 40px 10;
+        font-size: 35px;
         text-decoration: none;
         color: white;
     }

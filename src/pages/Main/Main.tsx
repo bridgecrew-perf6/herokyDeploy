@@ -1,4 +1,4 @@
-import {topItemsArray, bottomItemsArray} from "../../constants/mainItems"
+import topItemsArray from "../../constants/mainItems"
 import map from "../../assets/img/map/map.png"
 import styles from "./Main.module.css"
 import uniqID from "uniqid"
@@ -14,10 +14,7 @@ const Main = ()=>{
                 </h3>
                 <div>
                     <div className={styles.directionsItems}>
-                        {topItemsArray.map((element)=> <img className={styles.directionsItem} key={uniqID()} src={element} alt={element}></img>)}
-                    </div>
-                    <div className={styles.directionsItems}>
-                        {bottomItemsArray.map((element)=> <img className={styles.directionsItem} key={uniqID()} src={element} alt={element}></img>)}
+                        {topItemsArray.map((element: string)=> <img className={styles.directionsItem} key={uniqID()} src={element} alt={element}></img>)}
                     </div>
                 </div>
             </div>
